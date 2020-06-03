@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+    </head>
+    <body>
+        <h2>Заполните, пожалуйста, форму:</h2>
+        <form>
+            <p><b>Контактная информация</b></p>
+            <p><input type="text" name="username" placeholder="Имя"></p>
+            <p><input type="tel" name="phone_number" placeholder="Телефон"></p>
+            <p><input type="email" name="email" placeholder="Email"></p>
+            <p><input type="password" name="password" placeholder="Пароль"></p>
+
+            <p><b>Почему вы выбрали нашу школу?</b></p>
+            <p><input name="school" type="radio" value="advice"> По совету друга</p>
+            <p><input name="school" type="radio" value="ad"> Увидел(а) рекламу</p>
+            <p><input name="school" type="radio" value="review"> По отзывам</p>
+            <p><input name="school" type="radio" value="other"> Другое</p>
+            <p><textarea name="other" placeholder="Напишите свой вариант..." cols="35"></textarea></p>
+
+            <p><b>Что бы вы хотели получить от курсов?</b></p>
+            <p><textarea name="comment" placeholder="Расскажите нам о своих ожиданиях..." cols="40"></textarea></p>
+            <p><input type="submit" value="Отправить форму">
+               <input type="reset" value="Сбросить форму"></p>
+        </form>
+    </body>
+</html>
